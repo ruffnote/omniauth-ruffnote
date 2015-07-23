@@ -12,7 +12,7 @@ https://ruffnote.net/apidoc
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-ruffnote', github: ruffnote/omniauth-ruffnote'
+gem 'omniauth-ruffnote', github: 'ruffnote/omniauth-ruffnote'
 ```
 
 And then execute:
