@@ -30,7 +30,7 @@ describe OmniAuth::Strategies::Ruffnote do
 
   context "client options" do
     it 'should have correct site' do
-      subject.options.client_options.site.should eq("https://ruffnote.com")
+      subject.options.client_options.site.should eq("https://api.ruffnote.com")
     end
 
     it 'should have correct authorize url' do

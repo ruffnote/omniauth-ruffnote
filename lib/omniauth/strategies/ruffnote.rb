@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class Ruffnote < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        site: 'https://ruffnote.com',
+        site: 'https://api.ruffnote.com',
         authorize_url: '/oauth/authorize',
         token_url: '/oauth/token',
       }
